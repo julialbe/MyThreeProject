@@ -152,7 +152,7 @@ public class LoginFrame extends JFrame implements ActionListener, FocusListener{
             }
 
             else {
-                DMassage dialog = new DMassage("Вы не ввели логин или пароль.");
+                DMassage dialog = new DMassage("Incorrect login/username");
                 dialog.jDialog.setLocationRelativeTo(getContentPane());
             }
 
